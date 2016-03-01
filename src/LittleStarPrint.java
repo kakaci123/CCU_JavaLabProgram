@@ -49,34 +49,23 @@ public class LittleStarPrint {
 				System.exit(0);
 			}
 		}
-		switch (UserChoice) {
-		case 1:
-			System.out.print("你想要產生 n x n 的正方形呢?");
-			try {
+		try {
+			switch (UserChoice) {
+			case 1:
+				System.out.print("你想要產生 n x n 的正方形呢?");
 				SquareStar(cin.nextInt());
-			} catch (Exception e) {
-				System.out.println("噢! 你輸入錯誤了,請重新執行!");
-				System.exit(0);
-			}
-			break;
-		case 2:
-			System.out.print("你想要產生幾行的三角形呢?");
-			try {
+				break;
+			case 2:
+				System.out.print("你想要產生幾行的三角形呢?");
 				TriangleOne(cin.nextInt());
-			} catch (Exception e) {
-				System.out.println("噢! 你輸入錯誤了,請重新執行!");
-				System.exit(0);
-			}
-			break;
-		case 3:
-			System.out.print("你想要產生幾行的三角形呢?");
-			try {
+				break;
+			case 3:
+				System.out.print("你想要產生幾行的三角形呢?");
 				TriangleTwo(cin.nextInt());
-			} catch (Exception e) {
-				System.out.println("噢! 你輸入錯誤了,請重新執行!");
-				System.exit(0);
 			}
-			break;
+		} catch (Exception e) {
+			System.out.println("噢! 你輸入錯誤了,請重新執行!");
+			System.exit(0);
 		}
 	}
 }
