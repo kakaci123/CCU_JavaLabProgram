@@ -52,7 +52,7 @@ public class UserInputAndCalculate {
 			System.out.println("輸入資料有誤，請重新執行並確認");
 			System.exit(0);
 		}
-
+		cin.close();
 		System.out.println("========  運算結束     =========");
 	}
 }

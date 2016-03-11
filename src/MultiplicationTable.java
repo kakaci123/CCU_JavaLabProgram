@@ -29,5 +29,6 @@ public class MultiplicationTable {
 			System.out.println("噢! 出現問題囉!");
 			System.exit(0);
 		}
+		cin.close();
 	}
 }

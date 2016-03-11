@@ -67,5 +67,6 @@ public class LittleStarPrint {
 			System.out.println("噢! 你輸入錯誤了,請重新執行!");
 			System.exit(0);
 		}
+		cin.close();
 	}
 }
