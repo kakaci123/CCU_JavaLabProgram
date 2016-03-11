@@ -9,7 +9,8 @@ class CCUStudent {
 	double score;
 
 	CCUStudent() {
-	}// important
+		this("empty","empty",-1);
+	}// important-
 
 	CCUStudent(String _name, String _id, double _score) {
 		this.name = _name;
@@ -38,6 +39,10 @@ class CCUStudent {
 public class HW1_conference {
 	public static void main(String[] args) {
 		Random r = new Random();
+		
+		CCUStudent s0 = new CCUStudent();
+		System.out.println(s0.toString());
+		
 		CCUStudent s1 = new CCUStudent("ChenWei", "604530012", 87.5);
 		System.out.println(s1);
 		System.out.println("====以下由程式自動產生學生資料====");
