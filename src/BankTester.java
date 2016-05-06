@@ -55,12 +55,12 @@ public class BankTester {
 		studentBank.deposit(1006, 2000);
 		studentBank.withdraw(1006, 3000);
 
-		System.out.println(studentBank.summarizeAccountTransacation(1001));
-		System.out.println(studentBank.summarizeAccountTransacation(1002));
-		System.out.println(studentBank.summarizeAccountTransacation(1003));
-		System.out.println(studentBank.summarizeAccountTransacation(1004));
-		System.out.println(studentBank.summarizeAccountTransacation(1005));
-		System.out.println(studentBank.summarizeAccountTransacation(1006));
+		System.out.println(studentBank.summarizeAccountTransactions(1001));
+		System.out.println(studentBank.summarizeAccountTransactions(1002));
+		System.out.println(studentBank.summarizeAccountTransactions(1003));
+		System.out.println(studentBank.summarizeAccountTransactions(1004));
+		System.out.println(studentBank.summarizeAccountTransactions(1005));
+		System.out.println(studentBank.summarizeAccountTransactions(1006));
 
 		System.out.println(studentBank.summarizeAllAccounts());
 	}
